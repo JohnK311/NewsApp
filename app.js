@@ -75,9 +75,7 @@ function clearContainer(container) {
     child = container.lastElementChild;
   }
 }
-/**
- * events
- */
+
 document.addEventListener("DOMContentLoaded", function () {
   M.AutoInit();
   receivingNews();
@@ -87,10 +85,6 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
   receivingNews();
 });
-
-/**
- * add loader
- */
 
 function loader() {
   document.body.insertAdjacentHTML(
